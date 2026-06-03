@@ -21,10 +21,8 @@ s.framework = "UIKit"
 
 s.source_files = "DHLCustomCalendarView/**/*.{swift}"
 
-# 9
-s.resources = "DHLCustomCalendarView/**/*.{png,jpeg,jpg,storyboard,xib,xcassets, strings}”
+s.resources = "DHLCustomCalendarView/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
 
-# 10
 s.swift_version = "5.0"
 
 end
