@@ -10,6 +10,7 @@
 		C64D0D8A04C25E25E8380266 /* libPods-DHLCustomCalendarView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 899D73604674EB99BD2333BE /* libPods-DHLCustomCalendarView.a */; };
 		D77B34DE2FD07BB200DAD377 /* DHLCustomDecorationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77B34DD2FD07BB200DAD377 /* DHLCustomDecorationView.swift */; };
 		D77B34DF2FD07BB200DAD377 /* DHLCustomCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77B34DC2FD07BB200DAD377 /* DHLCustomCalendarView.swift */; };
+		D7E453112FD175FE00BDE091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E453102FD175FE00BDE091 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D77B34D02FD07B7300DAD377 /* DHLCustomCalendarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DHLCustomCalendarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D77B34DC2FD07BB200DAD377 /* DHLCustomCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHLCustomCalendarView.swift; sourceTree = "<group>"; };
 		D77B34DD2FD07BB200DAD377 /* DHLCustomDecorationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHLCustomDecorationView.swift; sourceTree = "<group>"; };
+		D7E453102FD175FE00BDE091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				D77B34DB2FD07BAB00DAD377 /* Custom */,
+				D7E4530F2FD175F100BDE091 /* Resources */,
 			);
 			path = DHLCustomCalendarView;
 			sourceTree = "<group>";
@@ -83,6 +86,14 @@
 				D77B34DD2FD07BB200DAD377 /* DHLCustomDecorationView.swift */,
 			);
 			path = Custom;
+			sourceTree = "<group>";
+		};
+		D7E4530F2FD175F100BDE091 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7E453102FD175FE00BDE091 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7E453112FD175FE00BDE091 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
