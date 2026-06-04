@@ -8,9 +8,9 @@
 import Foundation
 import UIKit
 
-class DHLCustomDecorationView: UIView {
+public class DHLCustomDecorationView: UIView {
     
-    init(width: CGFloat) {
+    public init(width: CGFloat) {
         // 16 de alto es aproximadamente el maximo de espacio que permite el UICalendarView() para las decorations. Si se pone mas, se corta la vista por abajo.
         super.init(frame: CGRect(x: 0, y: 0, width: width, height: 16))
         setupView()
@@ -25,7 +25,7 @@ class DHLCustomDecorationView: UIView {
         backgroundColor = .clear
     }
     
-    func addCustomSubview(
+    public func addCustomSubview(
         color: UIColor,
         height: CGFloat = 2,
         bottomSpacing: CGFloat = 0
@@ -44,7 +44,7 @@ class DHLCustomDecorationView: UIView {
         ])
     }
     
-    func addCustomSubviewAboveLastOne(
+    public func addCustomSubviewAboveLastOne(
         color: UIColor,
         height: CGFloat = 2,
         bottomSpacing: CGFloat = 4

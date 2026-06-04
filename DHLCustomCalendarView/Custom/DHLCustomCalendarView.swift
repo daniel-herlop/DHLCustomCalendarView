@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 @available(iOS 16.0, *)
-class DHLCustomCalendarView: UIView {
+public class DHLCustomCalendarView: UIView {
 
     private var selectedDateAction: ((Date) -> Void)?
     private var selectedDatesAction: (([Date]) -> Void)?
@@ -17,8 +17,8 @@ class DHLCustomCalendarView: UIView {
     private var calendarView: UICalendarView = UICalendarView()
     private var decorations: [Date?: UICalendarView.Decoration] = [:]
     
-    var selection: UICalendarSelectionSingleDate?
-    var multiSelection: UICalendarSelectionMultiDate?
+    public var selection: UICalendarSelectionSingleDate?
+    public var multiSelection: UICalendarSelectionMultiDate?
     
     override init(frame: CGRect) {
 
@@ -39,7 +39,7 @@ class DHLCustomCalendarView: UIView {
         commonInit()
     }
 
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
 
         super.awakeFromNib()
 
@@ -71,15 +71,14 @@ class DHLCustomCalendarView: UIView {
         //multiSelection?.setSelectedDates([Calendar.current.dateComponents(in: .current, from: Date())], animated: false)
         
         self.addSubview(calendarView)
-        calendarView.snp.makeConstraints { make in
-            make.edges.equalToSuperview()
-        }
+        
+        calendarView.pinToSuperview()
         
         calendarView.delegate = self
     }
 
     // para seleccionar solo una fecha
-    func setUp(selectedDateAction: @escaping ((Date) -> Void)) {
+    public func setUp(selectedDateAction: @escaping ((Date) -> Void)) {
         
         self.selectedDateAction = selectedDateAction
         calendarView.selectionBehavior = selection
@@ -87,7 +86,7 @@ class DHLCustomCalendarView: UIView {
     }
     
     // para seleccionar varias fechas
-    func setUp(selectedDatesAction: @escaping (([Date]) -> Void)) {
+    public func setUp(selectedDatesAction: @escaping (([Date]) -> Void)) {
         
         self.selectedDatesAction = selectedDatesAction
         calendarView.selectionBehavior = multiSelection
@@ -95,7 +94,7 @@ class DHLCustomCalendarView: UIView {
     }
     
     @available(iOS 18.0, *)
-    func setUpDecorations(_ decorations: [Date?: UICalendarView.Decoration]) {
+    public func setUpDecorations(_ decorations: [Date?: UICalendarView.Decoration]) {
         
         if decorations.isEmpty { return }
         
@@ -126,7 +125,7 @@ class DHLCustomCalendarView: UIView {
 
 @available(iOS 16.0, *)
 extension DHLCustomCalendarView: UICalendarViewDelegate {
-    func calendarView(_ calendarView: UICalendarView, decorationFor dateComponents: DateComponents) -> UICalendarView.Decoration? {
+    public func calendarView(_ calendarView: UICalendarView, decorationFor dateComponents: DateComponents) -> UICalendarView.Decoration? {
         
         let day = DateComponents(
                     calendar: dateComponents.calendar,
@@ -157,7 +156,7 @@ extension DHLCustomCalendarView: UICalendarViewDelegate {
 
 @available(iOS 16.0, *)
 extension DHLCustomCalendarView: UICalendarSelectionSingleDateDelegate {
-    func dateSelection(_ selection: UICalendarSelectionSingleDate, didSelectDate dateComponents: DateComponents?) {
+    public func dateSelection(_ selection: UICalendarSelectionSingleDate, didSelectDate dateComponents: DateComponents?) {
         
         if let dateComponents = dateComponents {
             if let date = Calendar.current.date(from: dateComponents) {
@@ -169,7 +168,7 @@ extension DHLCustomCalendarView: UICalendarSelectionSingleDateDelegate {
 
 @available(iOS 16.0, *)
 extension DHLCustomCalendarView: UICalendarSelectionMultiDateDelegate {
-    func multiDateSelection(_ selection: UICalendarSelectionMultiDate, didSelectDate dateComponents: DateComponents) {
+    public func multiDateSelection(_ selection: UICalendarSelectionMultiDate, didSelectDate dateComponents: DateComponents) {
 
         var datesSelected = [Date]()
         for dateSelected in multiSelection?.selectedDates ?? [] {
@@ -180,7 +179,7 @@ extension DHLCustomCalendarView: UICalendarSelectionMultiDateDelegate {
         selectedDatesAction?(datesSelected)
     }
 
-    func multiDateSelection(_ selection: UICalendarSelectionMultiDate, didDeselectDate dateComponents: DateComponents) {
+    public func multiDateSelection(_ selection: UICalendarSelectionMultiDate, didDeselectDate dateComponents: DateComponents) {
         
         var datesSelected = [Date]()
         for dateSelected in multiSelection?.selectedDates ?? [] {
@@ -189,5 +188,20 @@ extension DHLCustomCalendarView: UICalendarSelectionMultiDateDelegate {
             }
         }
         selectedDatesAction?(datesSelected)
+    }
+}
+
+extension UIView {
+    func pinToSuperview() {
+        guard let superview = superview else { return }
+
+        translatesAutoresizingMaskIntoConstraints = false
+
+        NSLayoutConstraint.activate([
+            topAnchor.constraint(equalTo: superview.topAnchor),
+            leadingAnchor.constraint(equalTo: superview.leadingAnchor),
+            trailingAnchor.constraint(equalTo: superview.trailingAnchor),
+            bottomAnchor.constraint(equalTo: superview.bottomAnchor)
+        ])
     }
 }
