@@ -6,7 +6,7 @@ s.name = "DHLCustomCalendarView"
 s.summary = "Selector de un item/items de un listado"
 s.requires_arc = true
 
-s.version = "1.0.0"
+s.version = "1.0.1"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 
