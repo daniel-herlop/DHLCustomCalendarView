@@ -6,7 +6,7 @@ s.name = "DHLCustomCalendarView"
 s.summary = "Selector de un item/items de un listado"
 s.requires_arc = true
 
-s.version = "1.0.1"
+s.version = "1.0.2"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 
@@ -21,7 +21,7 @@ s.framework = "UIKit"
 
 s.source_files = "DHLCustomCalendarView/**/*.{swift}"
 
-s.resources = "DHLCustomCalendarView/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
+#s.resources = "DHLCustomCalendarView/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
 
 s.swift_version = "5.0"
 
