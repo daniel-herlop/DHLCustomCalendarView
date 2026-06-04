@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 s.platform = :ios
 s.ios.deployment_target = '16.0'
 s.name = "DHLCustomCalendarView"
-s.summary = "Selector de un item/items de un listado"
+s.summary = "Calendario personalizado"
 s.requires_arc = true
 
 s.version = "1.0.2"
