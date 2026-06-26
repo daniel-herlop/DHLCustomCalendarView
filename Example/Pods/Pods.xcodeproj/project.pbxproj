@@ -1,0 +1,1016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043EDF3E8EA9DD58DDB62F7736CF02B2 /* StoryboardReference+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748B6182DDFC5F19B2BCDEB1AB54E860 /* StoryboardReference+Integrations.swift */; };
+		05D0892069657ABCAD0796C38095938F /* FileResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B7338D00ECE772BF3315C667BF457B /* FileResource+Integrations.swift */; };
+		069A0E3DEA0E9C63869126BE9D89BD41 /* FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DAC91CF737D738227FCEDD3D78BB55 /* FileResource.swift */; };
+		09ADF7FE37BA90916059BB6C15339079 /* ReuseIdentifier+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1655716619A484B7F0E0AA458C28A /* ReuseIdentifier+Integrations.swift */; };
+		11F65C6C4BE6E97FBB88C77092F59621 /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597D4EB602468F9985382499374F3DC /* StringResource.swift */; };
+		1B59A858F713A361D963D64EBB91E3B2 /* StringParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542DF41C16D1CE6383674BA8033AAB4B /* StringParam.swift */; };
+		1BD1B221D67FE5DE8FD9D0A74BF6B665 /* FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C783BDCE9DE73CF950931CADFC8027A7 /* FontResource.swift */; };
+		200BEA5FFD55713F147C5DD12E923034 /* DeploymentTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7B6F48EDC8E1418FDD31516A4E08D9 /* DeploymentTarget.swift */; };
+		2178855AECCA79953253D603EDBDA5F1 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932C98D4B5CBF35F438660EEAEC88056 /* Reusable.swift */; };
+		2398CAF15A0EFBEAAF0B4A0CD059CDAE /* StringResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47748B537F768AF6C136076DABAC29A6 /* StringResource+Integrations.swift */; };
+		253A63702AC8BAC3CBEA1A6FA732D263 /* R.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3D92D7C5E06B377504A19D06AF3AA7 /* R.swift-dummy.m */; };
+		2575A4B1E36CB464495A92993704700F /* DHLCustomCalendarView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85914C8DDA43C1E452CFDE6B7B8F4D89 /* DHLCustomCalendarView-dummy.m */; };
+		35504AF960D1AC934DB1CCA81FC929FA /* TypeReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79F28330C59DE36B7859B2AABC1EFE /* TypeReference.swift */; };
+		383BF5A5574D905855C66835D13832B9 /* DataResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55749926304F53C7BA8CCBD599972C /* DataResource.swift */; };
+		3897D562C6B47098579453B9196ECA2F /* NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552340E316DF61867FBDF42C500B9DE /* NibResource.swift */; };
+		3BA69B22287C5E2E2E3728642FAC487F /* ColorResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77E1439CD31F49E42AADE0B0E303D6 /* ColorResource+Integrations.swift */; };
+		4412FB944BA50E12271062B8BDBCE568 /* R.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 323A3B22BD073F87D069CC9A8E225149 /* R.swift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		49D8B3B2A8B6B6645FE318094D3C7E36 /* SegueIdentifier+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92BB7FF2FE2F318CFA05BF3D26CA1F2 /* SegueIdentifier+Integrations.swift */; };
+		4B026B67664244CCBBBDF435A4BB5E73 /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA17C12DFF93337D7D9AE9D2BA630D61 /* ValidationError.swift */; };
+		54AA0B87B8441740B92949EC9227820D /* DHLCustomCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E9BE4FBC240DC8E2C8FE2D2AFD3D3F /* DHLCustomCalendarView.swift */; };
+		611AA2B580A3F6DF40DF5DC45749A619 /* FontResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684B34BE3BAE2EBF32DB2AE8E4594BDD /* FontResource+Integrations.swift */; };
+		68142E23A757A0444D19C003A3C8DB3C /* DataResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748B50B8C9F1A318B786829EB514449E /* DataResource+Integrations.swift */; };
+		6D2BC46F5ABE43BF91BF5F0E6E8AC1D6 /* DHLCustomCalendarView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8764C9060CA887030D11A3554FC5C7 /* DHLCustomCalendarView-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6E4F2EC3C4A59FD9D74B9A88B6AF14B6 /* StringParam+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA613D973624B229ADDB6EB959468CCF /* StringParam+Extensions.swift */; };
+		7A2B91D8A71F82FEAC84E4FF562D6C77 /* ModuleReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFB7CE8082E8EC98F18201777CB429B /* ModuleReference.swift */; };
+		7CC6FD1EF56A83F28CDE8254E66DFA44 /* StoryboardReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82567F4EE63BF21DFF7DCF0FA796EFE /* StoryboardReference.swift */; };
+		8F63EBDF82D91E6BD755B8306A4CB5A6 /* StringsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D388A032719EC173A35E85E25CEC628E /* StringsTable.swift */; };
+		98749F823B49502386CE9CE1B7954FB3 /* NibReference+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B63CF2BBF0C3948C3BC47C60AE1B0D /* NibReference+Integrations.swift */; };
+		9C017D8F5D6481702758D7F41924A74E /* ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575CD9F452224904AB6520CAF9929CD5 /* ImageResource.swift */; };
+		A65F4A8DD24DA6D7BFBFA7923490BA0B /* ImageResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05CBF023144622042468D519255E5BF /* ImageResource+Integrations.swift */; };
+		AF3E1895495744E4771B58E46EDB989E /* PropertyListResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB59A0563791317C9F4B31B5ABD0A8 /* PropertyListResource.swift */; };
+		AFC15363D5F919719149635ADA704CA1 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8D2190D165A86988AB26F8845EFF98 /* Pods-Example-dummy.m */; };
+		B1583F40D0CB6C5CD16BD8FC3676CB4D /* DHLCustomDecorationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A034F453962D08352E903D0AD592B1F7 /* DHLCustomDecorationView.swift */; };
+		C1F301EDCBBE44DD44065D1D47E4B072 /* LocaleReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11BA17B3CC2D835DBCCF7BC24DB73AC /* LocaleReference.swift */; };
+		CE2088A3B7F9E817FDAD1679B8085A7E /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69543B67B85173BF6F063FFF7501EBF /* Bundle+Extensions.swift */; };
+		D2A31033083E93690387EFA18A2ED2ED /* AssetCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F1ABDD9E6E149E3636B5E030916336 /* AssetCatalog.swift */; };
+		D78269D968C2D446F5D11F4051B4CB36 /* StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6EAD167D71D7448D32C455BE5608C5 /* StoryboardResource.swift */; };
+		DBFA926F1345B0246C299E5FC425DB52 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E502162F64028620AB3116216016E650 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DF66400F9451B3B98B1FEA8D1DC82010 /* Unifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D482E4E4298FA903693317844CBEA /* Unifiable.swift */; };
+		F5C0E5D168CA07E6A22022B90C66EFCC /* NameCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BA5E9BE9A4B778B2EB671435E8AB21 /* NameCatalog.swift */; };
+		FE730F84C0B05E4E14F285F7600EAC2F /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0385BA29159305467C0547C16CCFEA7 /* ColorResource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A90CACCF6FB90319F934302FA76C7094 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 230984053C6652DFF510F450F21C5CF7;
+			remoteInfo = R.swift;
+		};
+		DB2E4FBF8600433E536F403669CF180E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51DC99AD38ABB73073B95FE7B2E40530;
+			remoteInfo = DHLCustomCalendarView;
+		};
+		E17175EBF4C873E16AD34ABEF71CEDF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2141D53E4BD3B5389572ED5F892EBD4D;
+			remoteInfo = "DHLCustomCalendarView-DHLCustomCalendarViewResources";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0547AE5857C4A2667F4E6604A9638930 /* R.swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = R.swift.debug.xcconfig; sourceTree = "<group>"; };
+		054D482E4E4298FA903693317844CBEA /* Unifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Unifiable.swift; path = Sources/RswiftResources/Shared/Unifiable.swift; sourceTree = "<group>"; };
+		0BE6247EF3C510A82754761EAFFCF901 /* DHLCustomCalendarView-DHLCustomCalendarViewResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "DHLCustomCalendarView-DHLCustomCalendarViewResources"; path = DHLCustomCalendarViewResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E79F28330C59DE36B7859B2AABC1EFE /* TypeReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypeReference.swift; path = Sources/RswiftResources/Shared/TypeReference.swift; sourceTree = "<group>"; };
+		1A55749926304F53C7BA8CCBD599972C /* DataResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataResource.swift; path = Sources/RswiftResources/DataResource.swift; sourceTree = "<group>"; };
+		1D3D92D7C5E06B377504A19D06AF3AA7 /* R.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "R.swift-dummy.m"; sourceTree = "<group>"; };
+		1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Example"; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8764C9060CA887030D11A3554FC5C7 /* DHLCustomCalendarView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DHLCustomCalendarView-umbrella.h"; sourceTree = "<group>"; };
+		323A3B22BD073F87D069CC9A8E225149 /* R.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "R.swift-umbrella.h"; sourceTree = "<group>"; };
+		3552340E316DF61867FBDF42C500B9DE /* NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibResource.swift; path = Sources/RswiftResources/NibResource.swift; sourceTree = "<group>"; };
+		3EA5BDD6DA462D45C28EA963654D95D3 /* R.swift */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = R.swift; path = libR.swift.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		441D77CD2FAB07C577EE0E248BDAB35D /* R.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = R.swift.modulemap; sourceTree = "<group>"; };
+		4597D4EB602468F9985382499374F3DC /* StringResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringResource.swift; path = Sources/RswiftResources/StringResource.swift; sourceTree = "<group>"; };
+		47748B537F768AF6C136076DABAC29A6 /* StringResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/StringResource+Integrations.swift"; sourceTree = "<group>"; };
+		542DF41C16D1CE6383674BA8033AAB4B /* StringParam.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringParam.swift; path = Sources/RswiftResources/Shared/StringParam.swift; sourceTree = "<group>"; };
+		575CD9F452224904AB6520CAF9929CD5 /* ImageResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageResource.swift; path = Sources/RswiftResources/ImageResource.swift; sourceTree = "<group>"; };
+		5EFB7CE8082E8EC98F18201777CB429B /* ModuleReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleReference.swift; path = Sources/RswiftResources/Shared/ModuleReference.swift; sourceTree = "<group>"; };
+		5F6EAD167D71D7448D32C455BE5608C5 /* StoryboardResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardResource.swift; path = Sources/RswiftResources/StoryboardResource.swift; sourceTree = "<group>"; };
+		66BA5E9BE9A4B778B2EB671435E8AB21 /* NameCatalog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NameCatalog.swift; path = Sources/RswiftResources/Shared/NameCatalog.swift; sourceTree = "<group>"; };
+		684B34BE3BAE2EBF32DB2AE8E4594BDD /* FontResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FontResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/FontResource+Integrations.swift"; sourceTree = "<group>"; };
+		684EA71794CE71E8E3DB15A9AD1EEA18 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6D9116161DFE6E7F74F0F0608390DAB5 /* DHLCustomCalendarView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DHLCustomCalendarView.release.xcconfig; sourceTree = "<group>"; };
+		6E7B6F48EDC8E1418FDD31516A4E08D9 /* DeploymentTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeploymentTarget.swift; path = Sources/RswiftResources/Shared/DeploymentTarget.swift; sourceTree = "<group>"; };
+		748B50B8C9F1A318B786829EB514449E /* DataResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DataResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/DataResource+Integrations.swift"; sourceTree = "<group>"; };
+		748B6182DDFC5F19B2BCDEB1AB54E860 /* StoryboardReference+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StoryboardReference+Integrations.swift"; path = "Sources/RswiftResources/Integrations/StoryboardReference+Integrations.swift"; sourceTree = "<group>"; };
+		8390C1797A666D89BE05AA8852B57C3F /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
+		85914C8DDA43C1E452CFDE6B7B8F4D89 /* DHLCustomCalendarView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DHLCustomCalendarView-dummy.m"; sourceTree = "<group>"; };
+		86B7338D00ECE772BF3315C667BF457B /* FileResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/FileResource+Integrations.swift"; sourceTree = "<group>"; };
+		8CDB59A0563791317C9F4B31B5ABD0A8 /* PropertyListResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PropertyListResource.swift; path = Sources/RswiftResources/PropertyListResource.swift; sourceTree = "<group>"; };
+		8E3451E6F481D3A92D950285A5AFC6BB /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		932C98D4B5CBF35F438660EEAEC88056 /* Reusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reusable.swift; path = Sources/RswiftResources/Shared/Reusable.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A034F453962D08352E903D0AD592B1F7 /* DHLCustomDecorationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DHLCustomDecorationView.swift; path = DHLCustomCalendarView/Custom/DHLCustomDecorationView.swift; sourceTree = "<group>"; };
+		A05CBF023144622042468D519255E5BF /* ImageResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/ImageResource+Integrations.swift"; sourceTree = "<group>"; };
+		A17761FCBF0C42D2747F176250E12C3F /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		A9BE0B5B62E9E5CE6D20930E44C48E06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AA77E1439CD31F49E42AADE0B0E303D6 /* ColorResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ColorResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/ColorResource+Integrations.swift"; sourceTree = "<group>"; };
+		B0DAC91CF737D738227FCEDD3D78BB55 /* FileResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileResource.swift; path = Sources/RswiftResources/FileResource.swift; sourceTree = "<group>"; };
+		BA613D973624B229ADDB6EB959468CCF /* StringParam+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringParam+Extensions.swift"; path = "Sources/RswiftResources/Shared/StringParam+Extensions.swift"; sourceTree = "<group>"; };
+		BB7477258AFEA093C271A64BD9D1EFF6 /* DHLCustomCalendarView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DHLCustomCalendarView-prefix.pch"; sourceTree = "<group>"; };
+		BD7866B2B30C313056837B983F1071EB /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
+		C03486DE31D78F76DBF0080B0022B1B1 /* DHLCustomCalendarView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DHLCustomCalendarView.debug.xcconfig; sourceTree = "<group>"; };
+		C783BDCE9DE73CF950931CADFC8027A7 /* FontResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontResource.swift; path = Sources/RswiftResources/FontResource.swift; sourceTree = "<group>"; };
+		CCB43FDA2424F206FEED4D097721FBE8 /* R.swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = R.swift.release.xcconfig; sourceTree = "<group>"; };
+		CE6C11C5F65122D7C5704B48109D9EB4 /* ResourceBundle-DHLCustomCalendarViewResources-DHLCustomCalendarView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DHLCustomCalendarViewResources-DHLCustomCalendarView-Info.plist"; sourceTree = "<group>"; };
+		D0385BA29159305467C0547C16CCFEA7 /* ColorResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorResource.swift; path = Sources/RswiftResources/ColorResource.swift; sourceTree = "<group>"; };
+		D11BA17B3CC2D835DBCCF7BC24DB73AC /* LocaleReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocaleReference.swift; path = Sources/RswiftResources/Shared/LocaleReference.swift; sourceTree = "<group>"; };
+		D1F1ABDD9E6E149E3636B5E030916336 /* AssetCatalog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetCatalog.swift; path = Sources/RswiftResources/AssetCatalog.swift; sourceTree = "<group>"; };
+		D388A032719EC173A35E85E25CEC628E /* StringsTable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringsTable.swift; path = Sources/RswiftResources/Shared/StringsTable.swift; sourceTree = "<group>"; };
+		D82567F4EE63BF21DFF7DCF0FA796EFE /* StoryboardReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardReference.swift; path = Sources/RswiftResources/Shared/StoryboardReference.swift; sourceTree = "<group>"; };
+		D8B63CF2BBF0C3948C3BC47C60AE1B0D /* NibReference+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NibReference+Integrations.swift"; path = "Sources/RswiftResources/Integrations/NibReference+Integrations.swift"; sourceTree = "<group>"; };
+		DA17C12DFF93337D7D9AE9D2BA630D61 /* ValidationError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationError.swift; path = Sources/RswiftResources/Shared/ValidationError.swift; sourceTree = "<group>"; };
+		DAD8FC1C05C3A265F0125B44562436CC /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC5811ACE933A26B9451293E03C99483 /* DHLCustomCalendarView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DHLCustomCalendarView.modulemap; sourceTree = "<group>"; };
+		E502162F64028620AB3116216016E650 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
+		E69543B67B85173BF6F063FFF7501EBF /* Bundle+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Extensions.swift"; path = "Sources/RswiftResources/Integrations/Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		E92BB7FF2FE2F318CFA05BF3D26CA1F2 /* SegueIdentifier+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SegueIdentifier+Integrations.swift"; path = "Sources/RswiftResources/Integrations/SegueIdentifier+Integrations.swift"; sourceTree = "<group>"; };
+		ECD1655716619A484B7F0E0AA458C28A /* ReuseIdentifier+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ReuseIdentifier+Integrations.swift"; path = "Sources/RswiftResources/Integrations/ReuseIdentifier+Integrations.swift"; sourceTree = "<group>"; };
+		EE8D2190D165A86988AB26F8845EFF98 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		F30FF3BFA8544B7528EFF59F25F60CAC /* DHLCustomCalendarView */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = DHLCustomCalendarView; path = libDHLCustomCalendarView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E9BE4FBC240DC8E2C8FE2D2AFD3D3F /* DHLCustomCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DHLCustomCalendarView.swift; path = DHLCustomCalendarView/Custom/DHLCustomCalendarView.swift; sourceTree = "<group>"; };
+		F61A0E5E5000F15A5D6FD6A6DF8C7D26 /* DHLCustomCalendarView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DHLCustomCalendarView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F7CC92DF9FE6F7F444FB8167C14A42A3 /* screenshot.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = screenshot.png; path = docs/screenshot.png; sourceTree = "<group>"; };
+		F8B6BE4B9407E8BD8A444C214CF884D3 /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC263EC828F4C7963350F9D6A5C83CAC /* R.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "R.swift-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00D7D901CAA6F3A1422F3D9246F9F852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7380EC815A0DAB85022D501F3CFF0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03EED3A7605D5881025BA5C26C4EFE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D9DCCE35801E6D80E9A2446A4BA9FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01E1E4A104CE573CBEBBEBAEA0F725A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F30FF3BFA8544B7528EFF59F25F60CAC /* DHLCustomCalendarView */,
+				0BE6247EF3C510A82754761EAFFCF901 /* DHLCustomCalendarView-DHLCustomCalendarViewResources */,
+				1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */,
+				3EA5BDD6DA462D45C28EA963654D95D3 /* R.swift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27245775BFCF12AD05D0F6C3A0BF1EBB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C298865DA10656DFFF47168B299F081 /* DHLCustomCalendarView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5C298865DA10656DFFF47168B299F081 /* DHLCustomCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				F4E9BE4FBC240DC8E2C8FE2D2AFD3D3F /* DHLCustomCalendarView.swift */,
+				A034F453962D08352E903D0AD592B1F7 /* DHLCustomDecorationView.swift */,
+				B225030E2FCABA686839864C30CBCAB0 /* Pod */,
+				BDB5AEFEA62139C05B203BC0762815F4 /* Support Files */,
+			);
+			name = DHLCustomCalendarView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6175F76A709D89A745234C5440684C67 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE24CC1D7D5952870F7CDB30F496FA13 /* Pods-Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6996D19FAF96E5456E1487C0B019E7D9 /* R.swift */ = {
+			isa = PBXGroup;
+			children = (
+				D1F1ABDD9E6E149E3636B5E030916336 /* AssetCatalog.swift */,
+				E69543B67B85173BF6F063FFF7501EBF /* Bundle+Extensions.swift */,
+				D0385BA29159305467C0547C16CCFEA7 /* ColorResource.swift */,
+				AA77E1439CD31F49E42AADE0B0E303D6 /* ColorResource+Integrations.swift */,
+				1A55749926304F53C7BA8CCBD599972C /* DataResource.swift */,
+				748B50B8C9F1A318B786829EB514449E /* DataResource+Integrations.swift */,
+				6E7B6F48EDC8E1418FDD31516A4E08D9 /* DeploymentTarget.swift */,
+				B0DAC91CF737D738227FCEDD3D78BB55 /* FileResource.swift */,
+				86B7338D00ECE772BF3315C667BF457B /* FileResource+Integrations.swift */,
+				C783BDCE9DE73CF950931CADFC8027A7 /* FontResource.swift */,
+				684B34BE3BAE2EBF32DB2AE8E4594BDD /* FontResource+Integrations.swift */,
+				575CD9F452224904AB6520CAF9929CD5 /* ImageResource.swift */,
+				A05CBF023144622042468D519255E5BF /* ImageResource+Integrations.swift */,
+				D11BA17B3CC2D835DBCCF7BC24DB73AC /* LocaleReference.swift */,
+				5EFB7CE8082E8EC98F18201777CB429B /* ModuleReference.swift */,
+				66BA5E9BE9A4B778B2EB671435E8AB21 /* NameCatalog.swift */,
+				D8B63CF2BBF0C3948C3BC47C60AE1B0D /* NibReference+Integrations.swift */,
+				3552340E316DF61867FBDF42C500B9DE /* NibResource.swift */,
+				8CDB59A0563791317C9F4B31B5ABD0A8 /* PropertyListResource.swift */,
+				932C98D4B5CBF35F438660EEAEC88056 /* Reusable.swift */,
+				ECD1655716619A484B7F0E0AA458C28A /* ReuseIdentifier+Integrations.swift */,
+				E92BB7FF2FE2F318CFA05BF3D26CA1F2 /* SegueIdentifier+Integrations.swift */,
+				D82567F4EE63BF21DFF7DCF0FA796EFE /* StoryboardReference.swift */,
+				748B6182DDFC5F19B2BCDEB1AB54E860 /* StoryboardReference+Integrations.swift */,
+				5F6EAD167D71D7448D32C455BE5608C5 /* StoryboardResource.swift */,
+				542DF41C16D1CE6383674BA8033AAB4B /* StringParam.swift */,
+				BA613D973624B229ADDB6EB959468CCF /* StringParam+Extensions.swift */,
+				4597D4EB602468F9985382499374F3DC /* StringResource.swift */,
+				47748B537F768AF6C136076DABAC29A6 /* StringResource+Integrations.swift */,
+				D388A032719EC173A35E85E25CEC628E /* StringsTable.swift */,
+				0E79F28330C59DE36B7859B2AABC1EFE /* TypeReference.swift */,
+				054D482E4E4298FA903693317844CBEA /* Unifiable.swift */,
+				DA17C12DFF93337D7D9AE9D2BA630D61 /* ValidationError.swift */,
+				F8C1E72DB73ECC5C96A5C960CCC1FF39 /* Support Files */,
+			);
+			name = R.swift;
+			path = R.swift;
+			sourceTree = "<group>";
+		};
+		9DB43ACB9BA3DCF88E7B4042FC75659A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6996D19FAF96E5456E1487C0B019E7D9 /* R.swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B225030E2FCABA686839864C30CBCAB0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F61A0E5E5000F15A5D6FD6A6DF8C7D26 /* DHLCustomCalendarView.podspec */,
+				A9BE0B5B62E9E5CE6D20930E44C48E06 /* LICENSE */,
+				684EA71794CE71E8E3DB15A9AD1EEA18 /* README.md */,
+				F7CC92DF9FE6F7F444FB8167C14A42A3 /* screenshot.png */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BDB5AEFEA62139C05B203BC0762815F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC5811ACE933A26B9451293E03C99483 /* DHLCustomCalendarView.modulemap */,
+				85914C8DDA43C1E452CFDE6B7B8F4D89 /* DHLCustomCalendarView-dummy.m */,
+				BB7477258AFEA093C271A64BD9D1EFF6 /* DHLCustomCalendarView-prefix.pch */,
+				2B8764C9060CA887030D11A3554FC5C7 /* DHLCustomCalendarView-umbrella.h */,
+				C03486DE31D78F76DBF0080B0022B1B1 /* DHLCustomCalendarView.debug.xcconfig */,
+				6D9116161DFE6E7F74F0F0608390DAB5 /* DHLCustomCalendarView.release.xcconfig */,
+				CE6C11C5F65122D7C5704B48109D9EB4 /* ResourceBundle-DHLCustomCalendarViewResources-DHLCustomCalendarView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DHLCustomCalendarView";
+			sourceTree = "<group>";
+		};
+		BE24CC1D7D5952870F7CDB30F496FA13 /* Pods-Example */ = {
+			isa = PBXGroup;
+			children = (
+				8390C1797A666D89BE05AA8852B57C3F /* Pods-Example.modulemap */,
+				F8B6BE4B9407E8BD8A444C214CF884D3 /* Pods-Example-acknowledgements.markdown */,
+				DAD8FC1C05C3A265F0125B44562436CC /* Pods-Example-acknowledgements.plist */,
+				EE8D2190D165A86988AB26F8845EFF98 /* Pods-Example-dummy.m */,
+				BD7866B2B30C313056837B983F1071EB /* Pods-Example-resources.sh */,
+				E502162F64028620AB3116216016E650 /* Pods-Example-umbrella.h */,
+				8E3451E6F481D3A92D950285A5AFC6BB /* Pods-Example.debug.xcconfig */,
+				A17761FCBF0C42D2747F176250E12C3F /* Pods-Example.release.xcconfig */,
+			);
+			name = "Pods-Example";
+			path = "Target Support Files/Pods-Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				27245775BFCF12AD05D0F6C3A0BF1EBB /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				9DB43ACB9BA3DCF88E7B4042FC75659A /* Pods */,
+				01E1E4A104CE573CBEBBEBAEA0F725A8 /* Products */,
+				6175F76A709D89A745234C5440684C67 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8C1E72DB73ECC5C96A5C960CCC1FF39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				441D77CD2FAB07C577EE0E248BDAB35D /* R.swift.modulemap */,
+				1D3D92D7C5E06B377504A19D06AF3AA7 /* R.swift-dummy.m */,
+				FC263EC828F4C7963350F9D6A5C83CAC /* R.swift-prefix.pch */,
+				323A3B22BD073F87D069CC9A8E225149 /* R.swift-umbrella.h */,
+				0547AE5857C4A2667F4E6604A9638930 /* R.swift.debug.xcconfig */,
+				CCB43FDA2424F206FEED4D097721FBE8 /* R.swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/R.swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04A55BDB7791DAEDA7CE0176B2E86C64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFA926F1345B0246C299E5FC425DB52 /* Pods-Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36EDBE984A5E6C829FEB5E236A258FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2BC46F5ABE43BF91BF5F0E6E8AC1D6 /* DHLCustomCalendarView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB60AD9C212B6FBA5C00FBFC5EAAED13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4412FB944BA50E12271062B8BDBCE568 /* R.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15652549F1D63EAAC35A62EB53F859C0 /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildPhases = (
+				04A55BDB7791DAEDA7CE0176B2E86C64 /* Headers */,
+				39AC0DC7C4CF767F3FE604026E56B234 /* Sources */,
+				00D7D901CAA6F3A1422F3D9246F9F852 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AF52A78BACD30AB50D37E1E6B59B515 /* PBXTargetDependency */,
+				93ED7F81D28C18D31D2614FC8D862991 /* PBXTargetDependency */,
+			);
+			name = "Pods-Example";
+			productName = "Pods-Example";
+			productReference = 1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2141D53E4BD3B5389572ED5F892EBD4D /* DHLCustomCalendarView-DHLCustomCalendarViewResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4CE9C6F6E889EB78AA614E7429FF06C /* Build configuration list for PBXNativeTarget "DHLCustomCalendarView-DHLCustomCalendarViewResources" */;
+			buildPhases = (
+				A41B063B6D9EE8F45977C3FF26679EB3 /* Sources */,
+				C03EED3A7605D5881025BA5C26C4EFE2 /* Frameworks */,
+				89564F91B8488B30E0D3A4380D1C12A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DHLCustomCalendarView-DHLCustomCalendarViewResources";
+			productName = DHLCustomCalendarViewResources;
+			productReference = 0BE6247EF3C510A82754761EAFFCF901 /* DHLCustomCalendarView-DHLCustomCalendarViewResources */;
+			productType = "com.apple.product-type.bundle";
+		};
+		230984053C6652DFF510F450F21C5CF7 /* R.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1550F13C1665CD0AFACD759FF874874 /* Build configuration list for PBXNativeTarget "R.swift" */;
+			buildPhases = (
+				EB60AD9C212B6FBA5C00FBFC5EAAED13 /* Headers */,
+				5610CDE7DFEC15B12736F3F85DAA66C3 /* Sources */,
+				D5D9DCCE35801E6D80E9A2446A4BA9FB /* Frameworks */,
+				116E3239ED2EB28E03F31258C8B2C3FC /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = R.swift;
+			productName = R.swift;
+			productReference = 3EA5BDD6DA462D45C28EA963654D95D3 /* R.swift */;
+			productType = "com.apple.product-type.library.static";
+		};
+		51DC99AD38ABB73073B95FE7B2E40530 /* DHLCustomCalendarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A6C9406CF343E0F93206F0D5E9C814F /* Build configuration list for PBXNativeTarget "DHLCustomCalendarView" */;
+			buildPhases = (
+				D36EDBE984A5E6C829FEB5E236A258FD /* Headers */,
+				40E7B497DF44BD6F36D56A4882112ACD /* Sources */,
+				BB7380EC815A0DAB85022D501F3CFF0E /* Frameworks */,
+				3CA379D8560608FFDEB8FED3F6CF254C /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B3718B348B4483E5DE781AFC8897927 /* PBXTargetDependency */,
+			);
+			name = DHLCustomCalendarView;
+			productName = DHLCustomCalendarView;
+			productReference = F30FF3BFA8544B7528EFF59F25F60CAC /* DHLCustomCalendarView */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 01E1E4A104CE573CBEBBEBAEA0F725A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51DC99AD38ABB73073B95FE7B2E40530 /* DHLCustomCalendarView */,
+				2141D53E4BD3B5389572ED5F892EBD4D /* DHLCustomCalendarView-DHLCustomCalendarViewResources */,
+				0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */,
+				230984053C6652DFF510F450F21C5CF7 /* R.swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89564F91B8488B30E0D3A4380D1C12A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		116E3239ED2EB28E03F31258C8B2C3FC /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/RswiftResources/R.swift.modulemap",
+				"${PODS_ROOT}/Headers/Public/RswiftResources/R.swift-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/R.swift-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/RswiftResources/R.swift.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/RswiftResources/R.swift-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		3CA379D8560608FFDEB8FED3F6CF254C /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/DHLCustomCalendarView/DHLCustomCalendarView.modulemap",
+				"${PODS_ROOT}/Headers/Public/DHLCustomCalendarView/DHLCustomCalendarView-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/DHLCustomCalendarView-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/DHLCustomCalendarView/DHLCustomCalendarView.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/DHLCustomCalendarView/DHLCustomCalendarView-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39AC0DC7C4CF767F3FE604026E56B234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC15363D5F919719149635ADA704CA1 /* Pods-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E7B497DF44BD6F36D56A4882112ACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AA0B87B8441740B92949EC9227820D /* DHLCustomCalendarView.swift in Sources */,
+				2575A4B1E36CB464495A92993704700F /* DHLCustomCalendarView-dummy.m in Sources */,
+				B1583F40D0CB6C5CD16BD8FC3676CB4D /* DHLCustomDecorationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5610CDE7DFEC15B12736F3F85DAA66C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A31033083E93690387EFA18A2ED2ED /* AssetCatalog.swift in Sources */,
+				CE2088A3B7F9E817FDAD1679B8085A7E /* Bundle+Extensions.swift in Sources */,
+				FE730F84C0B05E4E14F285F7600EAC2F /* ColorResource.swift in Sources */,
+				3BA69B22287C5E2E2E3728642FAC487F /* ColorResource+Integrations.swift in Sources */,
+				383BF5A5574D905855C66835D13832B9 /* DataResource.swift in Sources */,
+				68142E23A757A0444D19C003A3C8DB3C /* DataResource+Integrations.swift in Sources */,
+				200BEA5FFD55713F147C5DD12E923034 /* DeploymentTarget.swift in Sources */,
+				069A0E3DEA0E9C63869126BE9D89BD41 /* FileResource.swift in Sources */,
+				05D0892069657ABCAD0796C38095938F /* FileResource+Integrations.swift in Sources */,
+				1BD1B221D67FE5DE8FD9D0A74BF6B665 /* FontResource.swift in Sources */,
+				611AA2B580A3F6DF40DF5DC45749A619 /* FontResource+Integrations.swift in Sources */,
+				9C017D8F5D6481702758D7F41924A74E /* ImageResource.swift in Sources */,
+				A65F4A8DD24DA6D7BFBFA7923490BA0B /* ImageResource+Integrations.swift in Sources */,
+				C1F301EDCBBE44DD44065D1D47E4B072 /* LocaleReference.swift in Sources */,
+				7A2B91D8A71F82FEAC84E4FF562D6C77 /* ModuleReference.swift in Sources */,
+				F5C0E5D168CA07E6A22022B90C66EFCC /* NameCatalog.swift in Sources */,
+				98749F823B49502386CE9CE1B7954FB3 /* NibReference+Integrations.swift in Sources */,
+				3897D562C6B47098579453B9196ECA2F /* NibResource.swift in Sources */,
+				AF3E1895495744E4771B58E46EDB989E /* PropertyListResource.swift in Sources */,
+				253A63702AC8BAC3CBEA1A6FA732D263 /* R.swift-dummy.m in Sources */,
+				2178855AECCA79953253D603EDBDA5F1 /* Reusable.swift in Sources */,
+				09ADF7FE37BA90916059BB6C15339079 /* ReuseIdentifier+Integrations.swift in Sources */,
+				49D8B3B2A8B6B6645FE318094D3C7E36 /* SegueIdentifier+Integrations.swift in Sources */,
+				7CC6FD1EF56A83F28CDE8254E66DFA44 /* StoryboardReference.swift in Sources */,
+				043EDF3E8EA9DD58DDB62F7736CF02B2 /* StoryboardReference+Integrations.swift in Sources */,
+				D78269D968C2D446F5D11F4051B4CB36 /* StoryboardResource.swift in Sources */,
+				1B59A858F713A361D963D64EBB91E3B2 /* StringParam.swift in Sources */,
+				6E4F2EC3C4A59FD9D74B9A88B6AF14B6 /* StringParam+Extensions.swift in Sources */,
+				11F65C6C4BE6E97FBB88C77092F59621 /* StringResource.swift in Sources */,
+				2398CAF15A0EFBEAAF0B4A0CD059CDAE /* StringResource+Integrations.swift in Sources */,
+				8F63EBDF82D91E6BD755B8306A4CB5A6 /* StringsTable.swift in Sources */,
+				35504AF960D1AC934DB1CCA81FC929FA /* TypeReference.swift in Sources */,
+				DF66400F9451B3B98B1FEA8D1DC82010 /* Unifiable.swift in Sources */,
+				4B026B67664244CCBBBDF435A4BB5E73 /* ValidationError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A41B063B6D9EE8F45977C3FF26679EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AF52A78BACD30AB50D37E1E6B59B515 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DHLCustomCalendarView;
+			target = 51DC99AD38ABB73073B95FE7B2E40530 /* DHLCustomCalendarView */;
+			targetProxy = DB2E4FBF8600433E536F403669CF180E /* PBXContainerItemProxy */;
+		};
+		4B3718B348B4483E5DE781AFC8897927 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DHLCustomCalendarView-DHLCustomCalendarViewResources";
+			target = 2141D53E4BD3B5389572ED5F892EBD4D /* DHLCustomCalendarView-DHLCustomCalendarViewResources */;
+			targetProxy = E17175EBF4C873E16AD34ABEF71CEDF1 /* PBXContainerItemProxy */;
+		};
+		93ED7F81D28C18D31D2614FC8D862991 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = R.swift;
+			target = 230984053C6652DFF510F450F21C5CF7 /* R.swift */;
+			targetProxy = A90CACCF6FB90319F934302FA76C7094 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16BAEFEDD2CA67F05BA765E3395D11EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D9116161DFE6E7F74F0F0608390DAB5 /* DHLCustomCalendarView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DHLCustomCalendarView";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				IBSC_MODULE = DHLCustomCalendarView;
+				INFOPLIST_FILE = "Target Support Files/DHLCustomCalendarView/ResourceBundle-DHLCustomCalendarViewResources-DHLCustomCalendarView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_NAME = DHLCustomCalendarViewResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5DA25AE943811C83774438379C563A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C03486DE31D78F76DBF0080B0022B1B1 /* DHLCustomCalendarView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/DHLCustomCalendarView/DHLCustomCalendarView-prefix.pch";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MODULEMAP_FILE = Headers/Public/DHLCustomCalendarView/DHLCustomCalendarView.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DHLCustomCalendarView;
+				PRODUCT_NAME = DHLCustomCalendarView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AFC9D48679B485B056FC608274944D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3451E6F481D3A92D950285A5AFC6BB /* Pods-Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FE7A72B1D6EAB4ED6A404401262F666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB43FDA2424F206FEED4D097721FBE8 /* R.swift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/R.swift/R.swift-prefix.pch";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MODULEMAP_FILE = Headers/Public/RswiftResources/R.swift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RswiftResources;
+				PRODUCT_NAME = R.swift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A85581C2D0505F15A05FC1B146F3D865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A17761FCBF0C42D2747F176250E12C3F /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C489F2809AE01C42F1F27F60A5922C3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0547AE5857C4A2667F4E6604A9638930 /* R.swift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/R.swift/R.swift-prefix.pch";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MODULEMAP_FILE = Headers/Public/RswiftResources/R.swift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RswiftResources;
+				PRODUCT_NAME = R.swift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE16F68718FB142C90AF8B91F16C7B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C03486DE31D78F76DBF0080B0022B1B1 /* DHLCustomCalendarView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DHLCustomCalendarView";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				IBSC_MODULE = DHLCustomCalendarView;
+				INFOPLIST_FILE = "Target Support Files/DHLCustomCalendarView/ResourceBundle-DHLCustomCalendarViewResources-DHLCustomCalendarView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_NAME = DHLCustomCalendarViewResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		EE5E0245BC63DFD7CE285241988930D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D9116161DFE6E7F74F0F0608390DAB5 /* DHLCustomCalendarView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/DHLCustomCalendarView/DHLCustomCalendarView-prefix.pch";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MODULEMAP_FILE = Headers/Public/DHLCustomCalendarView/DHLCustomCalendarView.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DHLCustomCalendarView;
+				PRODUCT_NAME = DHLCustomCalendarView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15652549F1D63EAAC35A62EB53F859C0 /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AFC9D48679B485B056FC608274944D7 /* Debug */,
+				A85581C2D0505F15A05FC1B146F3D865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A6C9406CF343E0F93206F0D5E9C814F /* Build configuration list for PBXNativeTarget "DHLCustomCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DA25AE943811C83774438379C563A1A /* Debug */,
+				EE5E0245BC63DFD7CE285241988930D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4CE9C6F6E889EB78AA614E7429FF06C /* Build configuration list for PBXNativeTarget "DHLCustomCalendarView-DHLCustomCalendarViewResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE16F68718FB142C90AF8B91F16C7B00 /* Debug */,
+				16BAEFEDD2CA67F05BA765E3395D11EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1550F13C1665CD0AFACD759FF874874 /* Build configuration list for PBXNativeTarget "R.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C489F2809AE01C42F1F27F60A5922C3F /* Debug */,
+				8FE7A72B1D6EAB4ED6A404401262F666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

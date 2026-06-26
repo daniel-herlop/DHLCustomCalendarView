@@ -57,8 +57,6 @@ public class DHLCustomCalendarView: UIView {
         
         // calendarView.tintColor = R.color.blue_app()
         
-        calendarView.availableDateRange = DateInterval(start: .distantPast, end: .now)
-        
         selection = UICalendarSelectionSingleDate(delegate: self)
         multiSelection = UICalendarSelectionMultiDate(delegate: self)
         
@@ -78,17 +76,27 @@ public class DHLCustomCalendarView: UIView {
     }
 
     // para seleccionar solo una fecha
-    public func setUp(selectedDateAction: @escaping ((Date) -> Void)) {
+    public func setUp(availableDateRange: DateInterval? = nil, selectedDateAction: @escaping ((Date) -> Void)) {
         
         self.selectedDateAction = selectedDateAction
+        
+        if let availableDateRange = availableDateRange {
+            calendarView.availableDateRange = availableDateRange
+        }
+        
         calendarView.selectionBehavior = selection
         selection?.selectedDate = Calendar.current.dateComponents(in: .current, from: Date())
     }
     
     // para seleccionar varias fechas
-    public func setUp(selectedDatesAction: @escaping (([Date]) -> Void)) {
+    public func setUp(availableDateRange: DateInterval? = nil, selectedDatesAction: @escaping (([Date]) -> Void)) {
         
         self.selectedDatesAction = selectedDatesAction
+        
+        if let availableDateRange = availableDateRange {
+            calendarView.availableDateRange = availableDateRange
+        }
+        
         calendarView.selectionBehavior = multiSelection
         multiSelection?.setSelectedDates([Calendar.current.dateComponents(in: .current, from: Date())], animated: false)
     }

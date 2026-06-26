@@ -23,6 +23,13 @@ s.source_files = "DHLCustomCalendarView/**/*.{swift}"
 
 #s.resources = "DHLCustomCalendarView/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
 
+s.resource_bundles = {
+  'DHLCustomCalendarViewResources' => [
+    'DHLCustomCalendarView/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}'
+  ]
+}
+
+
 s.swift_version = "5.0"
 
 end

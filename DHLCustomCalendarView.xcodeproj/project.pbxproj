@@ -7,15 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C64D0D8A04C25E25E8380266 /* libPods-DHLCustomCalendarView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 899D73604674EB99BD2333BE /* libPods-DHLCustomCalendarView.a */; };
 		D77B34DE2FD07BB200DAD377 /* DHLCustomDecorationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77B34DD2FD07BB200DAD377 /* DHLCustomDecorationView.swift */; };
 		D77B34DF2FD07BB200DAD377 /* DHLCustomCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77B34DC2FD07BB200DAD377 /* DHLCustomCalendarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		899D73604674EB99BD2333BE /* libPods-DHLCustomCalendarView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DHLCustomCalendarView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA78C6BE61A828D26F2DA535 /* Pods-DHLCustomCalendarView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHLCustomCalendarView.debug.xcconfig"; path = "Target Support Files/Pods-DHLCustomCalendarView/Pods-DHLCustomCalendarView.debug.xcconfig"; sourceTree = "<group>"; };
-		C0FB2D1B01965DABFAE81266 /* Pods-DHLCustomCalendarView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHLCustomCalendarView.release.xcconfig"; path = "Target Support Files/Pods-DHLCustomCalendarView/Pods-DHLCustomCalendarView.release.xcconfig"; sourceTree = "<group>"; };
 		D77B34D02FD07B7300DAD377 /* DHLCustomCalendarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DHLCustomCalendarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D77B34DC2FD07BB200DAD377 /* DHLCustomCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHLCustomCalendarView.swift; sourceTree = "<group>"; };
 		D77B34DD2FD07BB200DAD377 /* DHLCustomDecorationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHLCustomDecorationView.swift; sourceTree = "<group>"; };
@@ -26,26 +22,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C64D0D8A04C25E25E8380266 /* libPods-DHLCustomCalendarView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		432210EE474C57DD0342C84A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				899D73604674EB99BD2333BE /* libPods-DHLCustomCalendarView.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		C636585772ECE18B5FD250E9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BA78C6BE61A828D26F2DA535 /* Pods-DHLCustomCalendarView.debug.xcconfig */,
-				C0FB2D1B01965DABFAE81266 /* Pods-DHLCustomCalendarView.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -56,7 +41,6 @@
 				D77B34DA2FD07B7C00DAD377 /* DHLCustomCalendarView */,
 				D77B34D12FD07B7300DAD377 /* Products */,
 				C636585772ECE18B5FD250E9 /* Pods */,
-				432210EE474C57DD0342C84A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +86,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D77B34D72FD07B7300DAD377 /* Build configuration list for PBXNativeTarget "DHLCustomCalendarView" */;
 			buildPhases = (
-				59AB9EA6C6E2B890796D5B53 /* [CP] Check Pods Manifest.lock */,
 				D77B34CB2FD07B7300DAD377 /* Headers */,
 				D77B34CC2FD07B7300DAD377 /* Sources */,
 				D77B34CD2FD07B7300DAD377 /* Frameworks */,
@@ -161,31 +144,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		59AB9EA6C6E2B890796D5B53 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DHLCustomCalendarView-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D77B34CC2FD07B7300DAD377 /* Sources */ = {
@@ -327,7 +285,6 @@
 		};
 		D77B34D82FD07B7300DAD377 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA78C6BE61A828D26F2DA535 /* Pods-DHLCustomCalendarView.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -367,7 +324,6 @@
 		};
 		D77B34D92FD07B7300DAD377 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0FB2D1B01965DABFAE81266 /* Pods-DHLCustomCalendarView.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;

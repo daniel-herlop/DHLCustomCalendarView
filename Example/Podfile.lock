@@ -1,0 +1,23 @@
+PODS:
+  - DHLCustomCalendarView (1.0.2)
+  - R.swift (7.8.0)
+
+DEPENDENCIES:
+  - DHLCustomCalendarView (from `..`)
+  - R.swift
+
+SPEC REPOS:
+  trunk:
+    - R.swift
+
+EXTERNAL SOURCES:
+  DHLCustomCalendarView:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  DHLCustomCalendarView: dadd3662a669c0168a80b8e7fc0f56729abb6bcf
+  R.swift: f573269ca45b2ab066c082e363dd4c2b297b0d71
+
+PODFILE CHECKSUM: ff14861cab3c3d14443b223149eee52b49f3e6fa
+
+COCOAPODS: 1.16.2

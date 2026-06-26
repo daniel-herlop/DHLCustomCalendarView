@@ -1,0 +1,6 @@
+module DHLCustomCalendarView {
+  umbrella header "DHLCustomCalendarView-umbrella.h"
+
+  export *
+  module * { export * }
+}
