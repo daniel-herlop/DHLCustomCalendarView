@@ -6,7 +6,7 @@ s.name = "DHLCustomCalendarView"
 s.summary = "Calendario personalizado"
 s.requires_arc = true
 
-s.version = "1.0.2"
+s.version = "1.0.3"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 
@@ -23,11 +23,11 @@ s.source_files = "DHLCustomCalendarView/**/*.{swift}"
 
 #s.resources = "DHLCustomCalendarView/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
 
-s.resource_bundles = {
-  'DHLCustomCalendarViewResources' => [
-    'DHLCustomCalendarView/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}'
-  ]
-}
+#s.resource_bundles = {
+#  'DHLCustomCalendarViewResources' => [
+ #   'DHLCustomCalendarView/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}'
+ # ]
+#}
 
 
 s.swift_version = "5.0"
